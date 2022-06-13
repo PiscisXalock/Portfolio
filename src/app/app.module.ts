@@ -9,6 +9,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { GamesComponent } from './components/games/games.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SalutationComponent } from './components/salutation/salutation.component';
+import { ParticlesModule } from 'angular-particle';
 
 @NgModule({
   declarations: [
@@ -26,5 +27,10 @@ import { SalutationComponent } from './components/salutation/salutation.componen
   ],
   providers: [],
   bootstrap: [AppComponent]
+})
+@ngcc({
+  imports: [
+    ParticlesModule
+  ]
 })
 export class AppModule { }
