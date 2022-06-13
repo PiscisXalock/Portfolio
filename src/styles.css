@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+*
+{
+  background-color: black;
+}
+
+@font-face
+{
+   font-family: 'Greybeard-14px-Bold';
+   src: url('assets/Fonts/Greybeard/Greybeard-14px-Bold.ttf') format("truetype");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face
+{
+   font-family: 'Greybeard-16px';
+   src: url('assets/Fonts/Greybeard/Greybeard-16px.ttf') format("truetype");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face
+{
+   font-family: 'Greybeard-15px-Bold';
+   src: url('assets/Fonts/Greybeard/Greybeard-15px-Bold.ttf') format("truetype");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face
+{
+   font-family: 'Greybeard-17px-Italic';
+   src: url('assets/Fonts/Greybeard/Greybeard-17px-Italic.ttf') format("truetype");
+   font-weight: normal;
+   font-style: normal;
+}
+
