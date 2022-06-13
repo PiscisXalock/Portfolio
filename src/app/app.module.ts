@@ -8,6 +8,7 @@ import { AboutComponent } from './components/about/about.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { GamesComponent } from './components/games/games.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { SalutationComponent } from './components/salutation/salutation.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +17,12 @@ import { ContactComponent } from './components/contact/contact.component';
     AboutComponent,
     SkillsComponent,
     GamesComponent,
-    ContactComponent
+    ContactComponent,
+    SalutationComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
