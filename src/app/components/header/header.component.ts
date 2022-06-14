@@ -12,4 +12,10 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  isCollapse = true;
+  toggleState() {
+    let foo = this.isCollapse
+    this.isCollapse = foo === false ? true : false;
+  }
+
 }

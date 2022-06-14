@@ -1,11 +1,29 @@
-<menu style="display: block; margin-bottom: auto;">
-    <ul>
-        <li>
-            <a routerLink="/">Inicio</a>
-            <a routerLink="/about">About</a>
-            <a routerLink="/skills">Skills</a>
-            <a routerLink="/games">Games</a>
-            <a routerLink="/contact">Contact</a>
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Imagen</a>
+    <button class="navbar-toggler collapsed" type="button" (click)="toggleState()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="navbar-collapse" [ngClass]="{ 'collapse': isCollapse }">
+      <ul class="nav navbar-nav me-auto navbar-center">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/">Home
+          </a>
         </li>
-    </ul>
-</menu>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/games">Games</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
