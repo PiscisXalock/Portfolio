@@ -57,4 +57,44 @@ nav > a:hover
   padding: 0, 1, 0, 1;
   text-align: center;
   font-family: 'Greybeard-16px';
+  position: relative;
 }
+
+#skillsH6
+{
+    font-size: large;
+    font-family: 'Greybeard-14px-Bold';
+}
+
+#salutation, #mySkillsH1, .skillsD
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #2e8b57;
+    font-family: 'Greybeard-16px';
+}
+
+#mySkillsP
+{
+    padding-bottom: 5%;
+    text-align: center;
+    color: springgreen;
+    font-family: 'Greybeard-14px-Bold';
+}
+
+#skillsH5, #skillsH5:hover, .btn
+{
+    text-decoration: none;
+    color: #0eb858;
+    font-family: 'Greybeard-15px-Bold';
+}
+
+
+#myCanvasContainer
+{
+  padding: 0, 1, 0, 1;
+  text-align: center;
+  font-family: 'Greybeard-16px';
+}
+
