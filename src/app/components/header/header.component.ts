@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +9,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
 
   ngOnInit(): void {
   }
@@ -17,5 +18,14 @@ export class HeaderComponent implements OnInit {
     let foo = this.isCollapse
     this.isCollapse = foo === false ? true : false;
   }
+
+  title = 'refreshPage';
+	constructor(public router: Router, public _location: Location) { }
+	refresh(): void {
+		this.router.navigate([''])
+  .then(() => {
+    window.location.reload();
+  });
+	}
 
 }

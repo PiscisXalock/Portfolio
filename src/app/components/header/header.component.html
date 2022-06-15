@@ -1,6 +1,6 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Imagen</a>
+    <img src="../../../assets/Images/png/profileBlue.png" alt="../../../assets/Images/png/profileGrey.png" (click)="refresh()" width="5%" height="auto" routerLink="/" style="cursor: pointer;">
     <button class="navbar-toggler collapsed" type="button" (click)="toggleState()">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -8,20 +8,20 @@
       <div class="navbar-collapse" [ngClass]="{ 'collapse': isCollapse }">
       <ul class="nav navbar-nav me-auto navbar-center">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/">Home
+          <a class="nav-link" routerLink="" (click)="refresh()">Home
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/about">About</a>
+          <a class="nav-link" routerLink="" (click)="refresh()">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/skills">Skills</a>
+          <a class="nav-link" routerLink="" (click)="refresh()">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/games">Games</a>
+          <a class="nav-link" routerLink="" (click)="refresh()">Games</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" routerLink="/contact">Contact</a>
+            <a class="nav-link" routerLink="" (click)="refresh()">Contact</a>
         </li>
       </ul>
     </div>

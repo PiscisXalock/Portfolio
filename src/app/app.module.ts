@@ -10,6 +10,11 @@ import { GamesComponent } from './components/games/games.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SalutationComponent } from './components/salutation/salutation.component';
 import { UnderConstructionComponent } from './components/under-construction/under-construction.component';
+import { HomeComponent } from './components/home/home.component';
+import { WorksComponent } from './components/works/works.component';
+import { WorksExtendsComponent } from './components/works-extends/works-extends.component';
+import { AboutExtendsComponent } from './components/about-extends/about-extends.component';
+import { SkillsExtendsComponent } from './components/skills-extends/skills-extends.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +25,12 @@ import { UnderConstructionComponent } from './components/under-construction/unde
     GamesComponent,
     ContactComponent,
     SalutationComponent,
-    UnderConstructionComponent
+    UnderConstructionComponent,
+    HomeComponent,
+    WorksComponent,
+    WorksExtendsComponent,
+    AboutExtendsComponent,
+    SkillsExtendsComponent
   ],
   imports: [
     BrowserModule,
