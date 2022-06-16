@@ -7,7 +7,7 @@ import { SalutationComponent } from './components/salutation/salutation.componen
 
 const routes: Routes = [
   {path: '', component:HomeComponent},
-  {path: 'about-extends', component:AboutExtendsComponent},
+  //{path: 'about-extends', component:AboutExtendsComponent},
   {path: '**', component:HomeComponent},
 ];
 
