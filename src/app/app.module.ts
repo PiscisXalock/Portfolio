@@ -15,6 +15,8 @@ import { WorksComponent } from './components/works/works.component';
 import { WorksExtendsComponent } from './components/works-extends/works-extends.component';
 import { AboutExtendsComponent } from './components/about-extends/about-extends.component';
 import { SkillsExtendsComponent } from './components/skills-extends/skills-extends.component';
+import { FootComponent } from './components/foot/foot.component';
+import { AcknowledgmentsComponent } from './components/acknowledgments/acknowledgments.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { SkillsExtendsComponent } from './components/skills-extends/skills-exten
     WorksComponent,
     WorksExtendsComponent,
     AboutExtendsComponent,
-    SkillsExtendsComponent
+    SkillsExtendsComponent,
+    FootComponent,
+    AcknowledgmentsComponent
   ],
   imports: [
     BrowserModule,
