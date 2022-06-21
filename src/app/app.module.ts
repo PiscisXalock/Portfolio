@@ -17,6 +17,7 @@ import { AboutExtendsComponent } from './components/about-extends/about-extends.
 import { SkillsExtendsComponent } from './components/skills-extends/skills-extends.component';
 import { FootComponent } from './components/foot/foot.component';
 import { AcknowledgmentsComponent } from './components/acknowledgments/acknowledgments.component';
+import { GamesExtendsComponent } from './components/games-extends/games-extends.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { AcknowledgmentsComponent } from './components/acknowledgments/acknowled
     AboutExtendsComponent,
     SkillsExtendsComponent,
     FootComponent,
-    AcknowledgmentsComponent
+    AcknowledgmentsComponent,
+    GamesExtendsComponent
   ],
   imports: [
     BrowserModule,
