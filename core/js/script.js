@@ -50,6 +50,14 @@ window.onscroll = () => {
   footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
 }
 
+function swAlert()
+{
+  Swal.fire({
+    title: "<strong>I'm so sorry</strong>",
+    icon: "info",
+    html: "<h2>This site is under construction.</h2><p>I hope you come back later.</p>"
+  });
+}
 
 /*function alerta()
 {
