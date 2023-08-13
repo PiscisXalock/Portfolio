@@ -49,3 +49,16 @@ window.onscroll = () => {
 
   footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
 }
+
+
+/*function alerta()
+{
+  Swal.fire({
+    title: '<iframe src="http://localhost/dev/Portfolio/assets/docs/cv_jaime_abad_garcia.pdf" width="800px" height="600px" style="border: none;"/>',
+    html: "",
+    type: "info",
+    customClass: 'swal-wide',
+    showCancelButton: false,
+    showConfirmButton:false
+});
+}*/
