@@ -19,6 +19,7 @@ $controller = new $controllerName();
 $dataToView["data"] = array();
 if(method_exists($controller,$_GET["action"])) $dataToView["data"] = $controller->{$_GET["action"]}();
 
+echo "Prueba";
 //require_once $defaultController->header();
 require_once $controller->view;
 //require_once $defaultController->footer();
