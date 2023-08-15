@@ -827,6 +827,11 @@ span
   width: 5%;
 }
 
+.skills-column:nth-child(7) .skills-content .progress:nth-child(5) .bar span
+{
+  width: 30%;
+}
+
 /* Art Skills */
 .skills-column:nth-child(8) .skills-content .progress:nth-child(1) .bar span
 {
@@ -848,18 +853,34 @@ span
   width: 5%;
 }
 
-/* Language Skills */
+/* Art Programs */
 .skills-column:nth-child(9) .skills-content .progress:nth-child(1) .bar span
 {
-  width: 75%;
+  width: 20%;
 }
 
 .skills-column:nth-child(9) .skills-content .progress:nth-child(2) .bar span
 {
-  width: 100%;
+  width: 5%;
 }
 
 .skills-column:nth-child(9) .skills-content .progress:nth-child(3) .bar span
+{
+  width: 5%;
+}
+
+/* Language Skills */
+.skills-column:nth-child(10) .skills-content .progress:nth-child(1) .bar span
+{
+  width: 75%;
+}
+
+.skills-column:nth-child(10) .skills-content .progress:nth-child(2) .bar span
+{
+  width: 100%;
+}
+
+.skills-column:nth-child(10) .skills-content .progress:nth-child(3) .bar span
 {
   width: 5%;
 }
