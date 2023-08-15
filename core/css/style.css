@@ -81,6 +81,11 @@ body
   color: var(--main-color);
 }
 
+.navbar i
+{
+  font-size: 1.7rem;
+}
+
 #menu-icon
 {
   position: relative;
@@ -515,6 +520,11 @@ span
   justify-content: center;
   text-align: center;
   font-size: 1.6rem;
+}
+
+.education-box table th
+{
+  color: var(--main-color);
 }
 
 .skills
