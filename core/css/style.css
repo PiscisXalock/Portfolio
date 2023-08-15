@@ -257,7 +257,8 @@ section
 {
   position: absolute;
   bottom: 4rem;
-  width: 170px;
+  /*width: 170px;*/
+  width: 110px;
   display: flex;
   justify-content: space-between;
 }
