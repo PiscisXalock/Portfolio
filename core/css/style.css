@@ -526,13 +526,13 @@ span
 .education-box table th
 {
   color: var(--main-color);
-  font-weight: bold;
 }
 
 .education-box a
 {
   all: unset;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .education-box a:hover
