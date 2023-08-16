@@ -526,12 +526,18 @@ span
 .education-box table th
 {
   color: var(--main-color);
+  font-weight: bold;
 }
 
 .education-box a
 {
   all: unset;
   cursor: pointer;
+}
+
+.education-box a:hover
+{
+  color: var(--bg-color);
 }
 
 .skills
